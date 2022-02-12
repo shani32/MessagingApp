@@ -3,7 +3,7 @@
 
 As a part of full stack web bootcamp, we requested to build a MERN project.
 So we decided to build chat app because we thinks it is important to connect people.
-For now, our website have register and login with authentication, chat with people,
+For now, our website has register and login with authentication, chat with people,
 and add gif/images and reactions and of course remove them.
 Moreover, we added the abillity to open chat groups.
 
