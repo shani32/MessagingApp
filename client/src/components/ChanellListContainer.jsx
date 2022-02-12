@@ -5,7 +5,9 @@ import { ChannelSearch, TeamChannelList, TeamChannelPreview } from './';
 import AppleseedsIcon from '../assets/appleseeds.png'
 import LogoutIcon from '../assets/logout.png'
 import Crypto from '../assets/cryptocurrency.jpg'
-import Link from 'react-router-dom'
+import savingIcon from '../assets/savingIcon.jpg'
+import {Link} from 'react-router-dom'
+import gamesIcon from '../assets/games.jpg'
 
 
 const cookies= new Cookies()
@@ -26,7 +28,21 @@ const SideBar=({logout})=>(
         </div>
         <div className='channel-list__sidebar__icon3'>
             <div className='icon1__inner'> <a href='https://nervous-babbage-e894ff.netlify.app/'> <img src={Crypto} alt="crypto" width="30" /></a>
-               
+                       
+            </div>
+
+        </div>
+        <div className='channel-list__sidebar__icon4'>
+           
+            <div className='icon1__inner'> <a href='https://savingappforbetterlife.netlify.app'> <img src={savingIcon} alt="saving" width="30" /></a>
+                        
+            </div>
+
+        </div>
+        <div className='channel-list__sidebar__icon5'>
+           
+            <div className='icon1__inner'> <a href='https://relax-games.netlify.app/#/'> <img src={gamesIcon} alt="games" width="30" /></a>
+                        
             </div>
 
         </div>
