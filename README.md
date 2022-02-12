@@ -1,4 +1,4 @@
-# Chat App
+# Messaging App
 ![Capture](https://user-images.githubusercontent.com/92324405/153728256-78b0adea-47d6-4367-a14d-933eb7c50f49.PNG)
 
 As a part of full stack web bootcamp, we requested to build a MERN project.
